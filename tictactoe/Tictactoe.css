@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+body {
+    
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
+input {
+   height: 100px;
+   width: 100px;
+   align-self: center;
+   background-color: grey;
+   border: 2px solid black;
+   font-size: 50px;
+   font-family: Impact;
+}
+
+h1 {
+    margin-top: 30px;
+    align-self: center;
+    font-size: 100px;
+    color: grey;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+
+h2 {
+    font-size: 50px;
+    align-self: center;
+    margin-top: 30px;
+    color: grey;
+    text-shadow: 3px 3px black;
+}
+
+#restart {
+    width: 120px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    align-self: center;
+    background-color: grey;
+    border: 1px solid black;
+}
